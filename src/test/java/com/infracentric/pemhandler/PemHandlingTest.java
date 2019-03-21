@@ -60,7 +60,7 @@ public class PemHandlingTest {
     public void generateKeyTest() {
          
         String comment = "Test key";
-        String filename = here + "temp.pem";
+        String filename = here + "/temp.pem";
         
         PemHandler ph = new PemHandler();
          
@@ -111,7 +111,7 @@ public class PemHandlingTest {
          
         String comment = "Test Encrypted key";
         String password = "myPassw0rd";
-        String filename = here + "temp_encrypted.pem";
+        String filename = here + "/temp_encrypted.pem";
         
         PemHandler ph = new PemHandler();
          
